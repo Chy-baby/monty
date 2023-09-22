@@ -1,4 +1,4 @@
-i#include "monty.h"
+#include "monty.h"
 
 /**
  * delNodidx - Delete node at index
