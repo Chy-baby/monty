@@ -20,7 +20,7 @@ void subs(stack_t **stack, unsigned int line_number)
 
 
 /**
- * add_ele - adds top two 
+ * add_ele - adds top two
  * @stack: double linked list
  * @line_number: num line
  * Return:Returns nothing(void)

@@ -1,9 +1,9 @@
-#include "monty.h"
+i#include "monty.h"
 
 /**
  * delNodidx - Delete node at index
  * @head: Doubly linked list
- * @index: index
+ * @idx: index
  * Return: 1 on success, -1 on failure
  */
 
