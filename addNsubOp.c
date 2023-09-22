@@ -10,7 +10,7 @@ void subs(stack_t **stack, unsigned int line_number)
 {
 	if (!*stack || !(*stack)->next)
 	{
-		fprintf(stderr, "L%u: can't sub, the stack is too short\n", line_number);
+		fprintf(stderr, "L%u: can't sub, stack too short\n", line_number);
 		clears();
 		exit(EXIT_FAILURE);
 	}
@@ -30,7 +30,7 @@ void add_ele(stack_t **stack, unsigned int line_number)
 {
 	if (!*stack || !(*stack)->next)
 	{
-		fprintf(stderr, "L%u: can't add, the stack is too short\n", line_number);
+		fprintf(stderr, "L%u: can't add, stack too short\n", line_number);
 		clears();
 		exit(EXIT_FAILURE);
 	}

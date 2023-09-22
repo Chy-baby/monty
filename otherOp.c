@@ -14,7 +14,7 @@ void product(stack_t **stack, unsigned int line_number)
 {
 	if (!*stack || !(*stack)->next)
 	{
-		fprintf(stderr, "L%u: can't multiply,the stack is too short\n", line_number);
+		fprintf(stderr, "L%u: can't mul, stack too short\n", line_number);
 		clears();
 		exit(EXIT_FAILURE);
 	}
@@ -33,7 +33,7 @@ void modulo(stack_t **stack, unsigned int line_number)
 {
 	if (!*stack || !(*stack)->next)
 	{
-		fprintf(stderr, "L%u: can't get the modu, stack too short\n", line_number);
+		fprintf(stderr, "L%u: can't mod, stack too short\n", line_number);
 		clears();
 		exit(EXIT_FAILURE);
 	}
@@ -58,7 +58,7 @@ void divi(stack_t **stack, unsigned int line_number)
 {
 	if (!*stack || !(*stack)->next)
 	{
-		fprintf(stderr, "L%u: can't divide, stack is too short\n", line_number);
+		fprintf(stderr, "L%u: can't div, stack too short\n", line_number);
 		clears();
 		exit(EXIT_FAILURE);
 	}
